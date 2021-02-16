@@ -1,8 +1,7 @@
 name: flutter_widget_extensions
 description: Extensions for Flutter widgets
 version: 0.0.1
-author:
-homepage:
+repository: https://github.com/fabianMendez/flutter_widget_extensions
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
