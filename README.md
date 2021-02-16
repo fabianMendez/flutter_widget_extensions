@@ -1,4 +1,4 @@
-# flutter_widget_extensions
+# Flutter Widget Extensions
 
 Extensions for Flutter widgets
 
