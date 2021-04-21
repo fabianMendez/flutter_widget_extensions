@@ -22,8 +22,8 @@ extension WidgetExtensions on Widget {
 
   Widget withAlignment({
     Alignment alignment = Alignment.center,
-    double widthFactor,
-    double heightFactor,
+    double? widthFactor,
+    double? heightFactor,
   }) {
     return Align(
       child: this,
@@ -33,7 +33,7 @@ extension WidgetExtensions on Widget {
     );
   }
 
-  Widget withPadding([EdgeInsets padding]) {
+  Widget withPadding([EdgeInsets? padding]) {
     return Padding(padding: padding ?? const EdgeInsets.all(20), child: this);
   }
 
@@ -45,7 +45,7 @@ extension WidgetExtensions on Widget {
     return DecoratedBox(decoration: decoration, child: this);
   }
 
-  Widget withSize({double width, double height}) {
+  Widget withSize({double? width, double? height}) {
     return SizedBox(width: width, height: height, child: this);
   }
 
@@ -54,8 +54,8 @@ extension WidgetExtensions on Widget {
   }
 
   Widget centered({
-    double widthFactor,
-    double heightFactor,
+    double? widthFactor,
+    double? heightFactor,
   }) {
     return Center(
       widthFactor: widthFactor,

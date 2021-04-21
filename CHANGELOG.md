@@ -15,3 +15,7 @@
 ### New extensions
 
 * withMargin
+
+## [0.0.3] - 2021-04-21
+
+### Migrate to nullsafety
