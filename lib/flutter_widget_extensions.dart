@@ -37,6 +37,10 @@ extension WidgetExtensions on Widget {
     return Padding(padding: padding ?? const EdgeInsets.all(20), child: this);
   }
 
+  Widget withMargin(EdgeInsets margin) {
+    return Container(margin: margin, child: this);
+  }
+
   Widget withDecoration(Decoration decoration) {
     return DecoratedBox(decoration: decoration, child: this);
   }
